@@ -1,0 +1,59 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#title{
+    color: lightblue;
+}
+
+p{
+    color: blanchedalmond;
+}
+
+
+#main-nav{
+    display: grid;
+    grid-template-areas: 'one two three';
+    background-color:lightgray;
+    height: 50px;
+    grid-column-gap: 50px;
+}
+
+#first{
+    grid-area: one;
+}
+
+#second{
+    grid-area: two;
+}
+
+#third{
+    grid-area: three;
+}
+
+.navlinks{
+    text-decoration: none;
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(54, 52, 54);
+}
+
+.navlinks:hover{
+    background-color: black;
+    color: white;
+}
+
+#gallery{
+    height: 20%;
+    width: 100%;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+img{
+    
+    height: 280px;
+}
