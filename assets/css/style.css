@@ -17,7 +17,7 @@ p{
 #main-nav{
     display: grid;
     grid-template-areas: 'one two three';
-    background-color:lightgray;
+    background-color:rgb(159, 175, 167);
     height: 50px;
     grid-column-gap: 50px;
 }
@@ -54,6 +54,5 @@ p{
 }
 
 img{
-    
     height: 280px;
 }
