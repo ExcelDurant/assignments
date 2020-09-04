@@ -17,7 +17,7 @@ p{
 #main-nav{
     display: grid;
     grid-template-areas: 'one two three four';
-    background-color:rgb(161, 170, 165);
+    background-image: linear-gradient(rgba(161, 170, 165, 0.6),rgba(161, 170, 165, 0.1));
     height: 50px;
     grid-column-gap: 25px;
 }
@@ -47,8 +47,8 @@ p{
 }
 
 .navlinks:hover{
-    background-color: black;
     color: white;
+    background-image: linear-gradient(rgb(59, 58, 58), black);
 }
 
 .navlinks:active{
