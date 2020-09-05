@@ -110,3 +110,30 @@ img{
     padding: 6px 0px;
     border: 2px solid rgb(175, 24, 24);
 }
+
+#guest-section{
+    display: grid;
+
+}
+
+.guests{
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr;
+    background-color: rgb(32, 27, 27);
+    margin-top: 20px;
+    height: 160px;
+}
+
+.guest-name{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.speaker{
+    width: 200px;
+    height: 100%;
+}
+
+.description{
+    font-family: 'Courier New', Courier, monospace;
+}
