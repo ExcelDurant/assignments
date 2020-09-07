@@ -19,7 +19,7 @@ p{
     grid-template-areas: 'one two three four';
     background-image: linear-gradient(rgba(161, 170, 165, 0.6),rgba(161, 170, 165, 0.1));
     height: 50px;
-    grid-column-gap: 25px;
+    grid-column-gap: 2px;
 }
 
 #first{
@@ -51,9 +51,9 @@ p{
     background-image: linear-gradient(rgb(59, 58, 58), black);
 }
 
-.navlinks:active{
-    background-color: black;
+.active{
     color: white;
+    background-image: linear-gradient(rgb(59, 58, 58), black);
 }
 
 #gallery{
