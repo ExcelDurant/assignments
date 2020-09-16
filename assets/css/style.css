@@ -35,9 +35,7 @@ body{
     background-color: rgb(161, 156, 161);
 }
 
-#carousel{
-    
-}
+
 
 .main{
     height: 400px;
@@ -49,9 +47,7 @@ body{
     grid-template-columns: 3fr 2fr;
 }
 
-.info{
-    
-}
+
 
 .info h1{
     font-family: Rockwell;
