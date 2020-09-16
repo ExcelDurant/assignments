@@ -7,7 +7,7 @@ body{
 }
 
 #main-nav{
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid rgb(112, 107, 107);
     height: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 8fr 1fr;
@@ -16,23 +16,23 @@ body{
 
 .navlinks{
     color: white;
-    font-weight: bolder;
+    font-weight: bold;
     align-items: center;
     margin: auto;
     padding: 10px;
     text-decoration: none;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .navlinks:hover{
-    color: rgb(153, 128, 16);
-    background-color: rgb(161, 156, 161);
+    background-color: rgb(194, 44, 44);
+    color: rgb(36, 33, 36);
 }
 
 .active{
-    color: rgb(153, 128, 16);
-    background-color: rgb(161, 156, 161);
+    background-color: rgb(194, 44, 44);
+    color: rgb(36, 33, 36);
 }
 
 
@@ -64,6 +64,11 @@ body{
     color: chartreuse;
     padding: 5px 20px;
     background-color: rgb(48, 53, 53);
+}
+
+.info a:hover{
+    background-color: rgb(128, 129, 238);
+    color: rgb(36, 33, 36);
 }
 
 .info-pic{
@@ -212,8 +217,47 @@ body{
     opacity: 0.6;
 }
 
+.special{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+.guests{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+}
 
+.guest-info{
+    height: 95%;
+    width: 85%;
+    margin-top: 15%;
+}
+
+.guest-pic{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.guest-pic img{
+    height: 100%;
+    width: 100%;
+}
+
+.guest-name{
+    text-align: center;
+    color: #92a76a;
+    font-family: Copperplate ;
+    font-size: 12px;
+}
+
+.guest-txt{
+    color: #AACCFF;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
 
